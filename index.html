@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Card de Perfil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div class="bg-black rounded-2xl shadow-lg overflow-hidden w-full max-w-sm">
+        <!-- Header do card -->
+        <div class="bg-gradient-to-r from-blue-500 to-purple-600 h-32" style="background-image: url('image.png'); background-size: cover; background-position: center;">
+        </div>
+
+        <!-- Conteúdo -->
+        <div class="px-6 pb-6">
+        
+        <!-- Avatar -->
+        <div class="-mt-12 mb-4 flex justify-center">
+            <img 
+            src="https://media.licdn.com/dms/image/v2/D4E03AQGIu206YP5gIg/profile-displayphoto-scale_400_400/B4EZulp6oFJIAk-/0/1768010790167?e=1776902400&v=beta&t=9JSG6vRbrmP_mQ6lQS5zchY3IOiDIF6V7eyZf6oOado" 
+            alt="Avatar"
+            class="w-24 h-24 rounded-full border-4 border-white shadow-md"
+            >
+        </div>
+        
+        <!-- Informações -->
+        <h2 class="text-white font-bold text-xl">Davi Rodrigues</h2>
+        <p class="text-blue-500 font-medium mb-2">Estudante de Programação</p>
+        <p class="text-white text-sm mb-4">
+        Desenvolvedor apaixonado por tecnologia, focado em aprender e crescer na área de programação. Buscando oportunidades para aplicar meus conhecimentos e contribuir com projetos inovadores.
+        </p>
+        
+        <!-- Botões -->
+        <div class="flex gap-3">
+            <button class="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded-lg transition-colors fab fa-linkedin" onclick="window.open('https://www.linkedin.com/in/davi-rodrigues-ti', '_blank')">
+            LinkedIn
+            </button>
+            <button class="flex-1 border border-gray-300 hover:bg-gray-50 text-gray-700 font-semibold py-2 rounded-lg transition-colors fab fa-github" onclick="window.open('https://github.com/davirodrigues-dev', '_blank')">
+            Github
+            </button>
+        </div>
+    </div>
+</body>
+</html>
